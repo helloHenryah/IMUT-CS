@@ -1,0 +1,10 @@
+.demo-box{
+  margin: 15rpx;
+  padding: 15rpx;
+  border: 1rpx solid silver;
+}
+
+image{
+  margin: 50rpx;
+  border-radius: 50%;
+}

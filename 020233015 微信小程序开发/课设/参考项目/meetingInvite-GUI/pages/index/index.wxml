@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="container">
+      <view class="userinfo-avatar" bindtap="bindViewTap">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <open-data type="userNickName"></open-data>
+</view>
+<view style="text-align: center;margin: 5rpx;color:darkgreen;font-size:16pt">会议注册</view>
+<view class='demo-box'>
+<view style="text-align: center;margin: 20rpx;color:blue">参会人员注册信息</view>
+<form bindsubmit='onSubmit' bindreset='onReset'>
+  <input name='username' type='text' placeholder='请输入真实姓名'></input>
+  <radio-group bindchange='radioChange' style="margin:20rpx;text-align:center">
+          性别：<radio value='男' checked='true' />男
+          <radio value='女' checked='true' />女
+      </radio-group>
+  <input name='password' password placeholder='请输入工作单位'></input>
+  <input name='username' type='text' placeholder='请输入手机号码'></input>
+  <input name='password' password placeholder='请输入通讯地址'></input>
+      <view style="text-align: center;margin: 20rpx">你对会议主题中的哪方面议题感兴趣</view>
+      <checkbox-group bindchange='checkboxChange' style="margin:20rpx;text-align:center">
+
+          <checkbox value='a'/>人工智能创新
+          <checkbox value='a'/>大数据处理
+          <checkbox value='a'/>图像识别
+          <checkbox value='a'/>机器学习
+          <checkbox value='a'/>嵌入式人工智能芯片
+
+      </checkbox-group>
+
+  <button type="primary" size='mini' form-type='submit'>提交</button>
+  <button type="default" size='mini' form-type='reset'>重置</button>
+</form>
+</view>

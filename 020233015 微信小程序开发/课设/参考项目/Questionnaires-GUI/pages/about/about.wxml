@@ -1,0 +1,6 @@
+
+<view class='demo-box'>
+  <view style="text-align: center;margin:80rpx;color:darkgreen;font-size:16pt">问问星——问卷调查</view>
+  <view style="line-height:60rpx;text-align: center ;margin: 20rpx;color:blue">XXX工作室荣誉出品</view>
+  <image src="/pages/img/logo.png" mode='heightFix'></image>
+</view>

@@ -1,0 +1,32 @@
+
+<swiper indicator-dots indicator-color="lightblue" circular interval='9000' duration='9000'>
+        <swiper-item>
+          <image src="/pages/img/x1.png" mode='heightFix'></image>
+        </swiper-item>
+        <swiper-item>
+            <view class='swiper-item'>第2页</view>
+        </swiper-item>
+        <swiper-item>
+            <view class='swiper-item'>第3页</view>
+        </swiper-item>
+</swiper>
+<view style="text-align: center;margin:30rpx;color:darkgreen;font-size:16pt">XXX情况问卷调查</view>
+<view class='demo-box'>
+<form bindsubmit='onSubmit' bindreset='onReset'>
+    <input name='username' type='text' placeholder='您从事的职业'></input>
+    <input name='username' type='text' placeholder='您的年龄'></input>
+  <radio-group bindchange='radioChange' style="margin:20rpx;text-align:center">
+          您的性别：<radio value='男' checked='true' />男
+          <radio value='女' checked='true' />女
+      </radio-group>
+      <view style="text-align: center;margin: 20rpx">您最喜爱的运动</view>
+      <checkbox-group bindchange='checkboxChange' style="margin:30rpx">
+        <view class='test' wx:for='{{checkboxItems}}' wx:key='item{{index}}'>
+          <checkbox value='{{item.value}}' checked='{{item.checked}}' />{{item.name}}
+        </view>
+      </checkbox-group>
+
+  <button type="primary" size='mini' form-type='submit'>提交</button>
+  <button type="default" size='mini' form-type='reset'>重置</button>
+</form>
+</view>

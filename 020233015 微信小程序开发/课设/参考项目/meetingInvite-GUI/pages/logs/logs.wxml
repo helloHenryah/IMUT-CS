@@ -1,0 +1,5 @@
+<view style="text-align: center;margin: 50rpx;color:darkgreen;font-size:16pt">会议主题</view>
+<view class='demo-box'>
+<view style="line-height:60rpx;text-align: left;margin: 20rpx;color:blue">——为全世界的业内人士和观众呈现一场高端、前瞻、引领的盛会。主题论坛是除开幕式论坛和两场主论坛外，世界人工智能大会最具含金量的沟通与交流平台，围绕前沿算法、类脑智能、AI芯片、无人驾驶、智能机器人、AI+5G、AI+教育、AI+医疗、AI+工业，以及投融资等热门话题，共将举行十场主题论坛。以开放包容的精神汇聚全球智慧、为人工智能的发展作出贡献，将是这些主题论坛的共同特点。</view>
+<image src="/pages/img/x4.jpg" mode='heightFix'></image>
+</view>

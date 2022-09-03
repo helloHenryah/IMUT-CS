@@ -1,0 +1,16 @@
+{
+  "pages":[    
+    "pages/meet/meet",
+    "pages/zcinfo/zcinfo",
+    "pages/logs/logs",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#89b",
+    "navigationBarTextStyle":"white",
+    "navigationBarTitleText": "会议邀请函"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,10 @@
+<view style="text-align: center;margin: 50rpx;color:darkgreen;font-size:16pt">会议注册信息</view>
+<view class='demo-box'>
+<view style="line-height:60rpx;text-align: center ;margin: 20rpx;color:blue">姓名：XXX</view>
+<view style="line-height:60rpx;text-align: center ;margin: 20rpx;color:blue">性别：男</view>
+<view style="line-height:60rpx;text-align: center ;margin: 20rpx;color:blue">工作单位：XXX</view>
+<view style="line-height:60rpx;text-align: center ;margin: 20rpx;color:blue">手机号码：XXX</view>
+<view style="line-height:60rpx;text-align: center ;margin: 20rpx;color:blue">通讯地址：XXX</view>
+<view style="line-height:60rpx;text-align: center ;margin: 20rpx;color:blue">你对会议主题中的哪方面议题感兴趣：</view>
+<view style="line-height:60rpx;text-align: center ;margin: 20rpx;color:blue">大数据处理,图像识别</view>
+</view>

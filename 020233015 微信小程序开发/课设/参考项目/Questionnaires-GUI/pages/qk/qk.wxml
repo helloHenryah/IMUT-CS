@@ -1,0 +1,7 @@
+<view style="text-align: center;margin:80rpx;color:darkgreen;font-size:16pt">XXX情况问卷调查</view>
+<view class='demo-box'>
+  <view style="line-height:60rpx;text-align: center ;margin: 20rpx;color:blue">您从事的职业：医生</view>
+<view style="line-height:60rpx;text-align: center ;margin: 20rpx;color:blue">您的年龄：25</view>
+<view style="line-height:60rpx;text-align: center ;margin: 20rpx;color:blue">您的性别：女</view>
+<view style="line-height:60rpx;text-align: center ;margin: 20rpx;color:blue">您最喜爱的运动：爬山,游泳</view>
+</view>

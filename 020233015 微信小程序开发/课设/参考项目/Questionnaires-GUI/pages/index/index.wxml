@@ -1,0 +1,15 @@
+<!--index.wxml-->
+
+<view class="container">
+  <view>欢迎来到问问星——问卷调查</view>
+      <view class="userinfo-avatar" bindtap="bindViewTap">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <open-data type="userNickName"></open-data>
+</view>
+<view style="text-align: center;margin:80rpx;color:darkgreen;font-size:16pt">XXX情况问卷调查</view>
+<view class='demo-box'>
+  <button type='primary' bindtap='zt'>填写问卷</button>
+  <button type='default'  bindtap='zcinfo'>填写检查</button>
+	<button type='default' bindtap='zc'>关于我们</button>
+</view>

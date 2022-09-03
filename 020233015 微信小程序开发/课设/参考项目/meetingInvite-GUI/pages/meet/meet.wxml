@@ -1,0 +1,27 @@
+<swiper indicator-dots indicator-color="lightblue" circular interval='9000' duration='9000'>
+        <swiper-item>
+          <image src="/pages/img/x1.jpg" mode='heightFix'></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="/pages/img/x2.jpg" mode='heightFix'></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="/pages/img/x3.jpg" mode='heightFix'></image>
+        </swiper-item>
+</swiper>
+<view class='demo-box'>
+<view style="text-align: center;margin: 5rpx;color:darkgreen;font-size:16pt">2021人工智能大会技术创新高峰论坛</view>
+<view style="text-align: center;margin: 5rpx;color:darkgreen;font-size:12pt">"      "</view>
+<view style="text-align: center;margin: 5rpx;color:darkgreen;font-size:12pt">会议时间：2021年8月1日</view>
+<view style="text-align: center;margin: 5rpx;color:darkgreen;font-size:12pt">会议地点：内蒙古呼和浩特市内蒙古工业大学金川校区电力大楼918会议室</view>
+</view>
+<view class='demo-box'>
+  <button type='primary' bindtap='zt' size='mini'>会议主题</button>
+  <button type='warn'  bindtap='zcinfo' size='mini'>会议注册</button>
+	<button type='default' bindtap='zc' size='mini'>注册信息</button>
+</view>
+<view class='demo-box'>
+      <view class='title'>会议地点地图</view>
+      <map latitude='{{latitude}}' longitude='{{longitude}}' markers='{{markers}}' bindregionchange='regionChange' bindtap='getll'>
+      </map>
+  </view>
