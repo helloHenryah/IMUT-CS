@@ -1,0 +1,12 @@
+<!--pages/multiplication-table/multiplication-table.wxml-->
+<view class="body">
+  <!--<button type="primary" bindtap="" id="button">点击展示九九乘法表</button>-->
+  <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i" class="nonext">
+    <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j" class="nonext">
+      <view wx:if="{{j <= i}}" class="nonext" id="small">
+        {{j}}*{{i}}={{i*j}}
+        <text space="emsp" decode="true" style="font-size:50rpx;" >&nbsp;</text>
+      </view>
+    </view>
+  </view>
+</view>

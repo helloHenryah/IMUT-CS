@@ -1,0 +1,7 @@
+<!--pages/student/student.wxml-->
+<view class="page-body">
+  <view class="btn-area" id="buttonContainer">
+      <button bindtap="show_student" type="primary" plain="true">点击显示信息</button>
+      <view>{{student_data}}</view>
+  </view>
+</view>

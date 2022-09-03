@@ -1,0 +1,18 @@
+/* pages/multiplication-table/multiplication-table.wxss */
+#button{
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20%;
+}
+.nonext{
+  display: flex;
+}
+#small{
+  font-size:xx-small;
+}
