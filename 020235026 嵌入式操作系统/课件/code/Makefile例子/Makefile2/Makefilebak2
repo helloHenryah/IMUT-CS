@@ -1,0 +1,23 @@
+all:main
+echo_messsage:
+	@echo "Waiting..."
+CC=gcc
+main: main.o f1.o f2.o 
+	$(CC) -o main main.o f1.o f2.o 
+	@echo "----------------------"
+	@echo $?
+	@echo $@
+	@echo $<
+	@echo $*
+	@echo $^
+	@echo $(CC)
+	@echo "----------------------" 
+main.o: main.c def1.h 
+	$(CC) -c main.c 
+f1.o: f1.c def1.h def2.h 
+	$(CC) -c f1.c 
+f2.o: f2.c def2.h def3.h 
+	$(CC) -c f2.c 
+.PHONY:clean
+clean:
+	rm -f main main.o f1.o f2.o

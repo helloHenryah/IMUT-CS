@@ -1,0 +1,18 @@
+all:main 
+# 使用的编译器 
+CC = gcc 
+#包含文件所在目录 
+INCLUDE = . 
+# 在开发过程中使用的选项 
+CFLAGS = -g -Wall 
+# 在开发完成发布软件时使用的选项 
+# CFLAGS = -O -Wall 
+main: main.o t1.o t2.o 
+	$(CC) -o $@ $^ 
+main.o: main.c d1.h 
+	$(CC) -I$(INCLUDE) $(CFLAGS) -c main.c 
+t1.o: t1.c d1.h d2.h 
+	$(CC) -I$(INCLUDE) $(CFLAGS) -c t1.c 
+t2.o: t2.c d2.h d3.h 
+	$(CC) -I$(INCLUDE) $(CFLAGS) -c t2.c 
+
