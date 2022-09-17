@@ -16,16 +16,19 @@ class Homework1 {
         three();
     }
     public static void one() {
+        System.out.println("数列中的数值:");
         for(int x:arr){
             System.out.println(x);
         }
     }
     public static void two() {
+        System.out.println("数列中所有数值的和:");
         int sum = 0;
         for(int x:arr) sum += x;
         System.out.println(sum);
     }
     public static void three() {
+        System.out.println("猜数游戏:");
         Scanner sc = new Scanner(System.in);
         int target = sc.nextInt();
         boolean is = false;
