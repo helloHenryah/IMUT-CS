@@ -2,6 +2,8 @@
 
 ## 授课老师
 
+[王海凤](https://yjsch.imut.edu.cn/info/1097/2070.htm)
+
 ## 课程教材
 
 [计算机网络](https://book.douban.com/subject/35498120/)
