@@ -7,13 +7,14 @@
 - 收集课程资料
 - 整理资料为markdown格式
 
-## 帮助文档
+## 目录
 
-[项目规范](Help/项目规范.md)
+- [Course](Course/Course.md)
+- [Help](Help/Help.md)
 
-[教学计划](Help/教学计划.md)
+## Course
 
-[新手指南](Help/新手指南.md)
+## Help
 
 ## 贡献者
 
